@@ -1,0 +1,36 @@
+.hero-container {
+    width: 100%;
+    background-position: center;
+    background-image: url(./assets/hero-bg.png);
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+}
+
+.hero-content {
+    padding: 101px;
+}
+
+.mic-div {
+    width: 21rem;
+    box-shadow: 0px 0px 0px 10px #ffffff1c;
+    height: 21rem;
+    margin: 0px auto;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+}
+
+.hero-header {
+    font-size: 4rem;
+    color: white;
+}
+
+.btn {
+    background: linear-gradient(135deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+    padding: 4px 16px;
+    border: none;
+    border-radius: 15px;
+}
