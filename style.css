@@ -30,14 +30,13 @@ section {
     width: 75%;
     margin: 0px auto;
     max-width: 1600px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 2px solid red;
 }
 
 .nav-header {
@@ -66,7 +65,25 @@ button {
     border-radius: 2rem;
 }
 
+.hamburger-menu{
+    display: none;
+}
+
 
 @media screen and (max-width: 576px) {
-    
+    .nav-header {
+        font-size: 2rem;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+
+    .navbar button {
+        display: none;
+    }
+
+    .hamburger-menu{
+        display: flex;
+    }
 }
