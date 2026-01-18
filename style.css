@@ -30,7 +30,7 @@ section {
 }
 
 .frst-section {
-    border-bottom: 2px solid #402f40;
+    border: 1px solid #8080801c;
 }
 
 .section {
@@ -304,10 +304,6 @@ button {
 
     .width-1200 {
         width: 90%;
-    }
-
-    .hr {
-        margin: 2rem 0px;
     }
 
     .card-box {
