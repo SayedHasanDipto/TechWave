@@ -264,4 +264,12 @@ button {
         grid-template-columns: repeat(2, 1fr);
         gap: 5rem;
     }
+
+    .card{
+        text-align: center;
+    }
+
+    .card h1{
+        font-size: 40px;
+    }
 }
