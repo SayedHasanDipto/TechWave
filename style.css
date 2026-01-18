@@ -23,6 +23,15 @@
     background: linear-gradient(135deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
 }
 
+.new-animation {
+    translate: 150px -150px;
+    background-color: #00FF88;
+    padding: 8px 16px;
+    border-radius: 40px;
+    color: #1A0B2E;
+    font-weight: 900;
+}
+
 .hero-header {
     font-size: 4rem;
     color: white;
