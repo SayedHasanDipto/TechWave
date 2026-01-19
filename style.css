@@ -209,6 +209,18 @@ button {
     justify-items: center
 }
 
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.flex span {
+    color: #00FF88;
+    font-size: 48px;
+}
+
 .card h1 {
     color: #00FF88;
     font-size: 48px;
@@ -354,6 +366,23 @@ button {
 
 .host-info p {
     line-height: 24px;
+    margin-bottom: 1rem;
+}
+
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.356);
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.social-icon a{
+    margin-top: 5px;
 }
 
 
@@ -410,7 +439,8 @@ button {
         font-size: 40px;
     }
 
-    .trd-container, .w-75 {
+    .trd-container,
+    .w-75 {
         width: 90%;
     }
 
@@ -433,22 +463,24 @@ button {
         line-height: 1.8rem;
     }
 
-    .episode-card{
+    .episode-card {
         flex-direction: column;
         flex-wrap: wrap;
         width: 100%;
     }
-    .video-card{
+
+    .video-card {
         width: 100%;
         height: 30rem;
     }
-    iframe{
+
+    iframe {
         width: 100%;
-        height: 18vh;
+        height: 39%;
         margin-top: 10px;
     }
 
-    .host-box{
+    .host-box {
         flex-direction: column;
     }
 }
