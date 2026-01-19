@@ -82,6 +82,11 @@ button {
     border-radius: 2rem;
 }
 
+a{
+    color: white;
+    text-decoration: none;
+}
+
 .btn {
     padding: 12px 16px;
     color: white;
@@ -89,6 +94,11 @@ button {
     background: linear-gradient(10deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
     transition: 0.3s;
     cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
 }
 
 .btn:hover,
@@ -137,7 +147,7 @@ button {
 
 .new {
     position: relative;
-    width: 21rem;
+    width: 52%;
     /* border: 2px solid red; */
     margin: 0px auto;
 }
@@ -312,7 +322,7 @@ button {
 .grid-card {
     background-color: rgba(255, 255, 255, 0.03);
     border-radius: 2rem;
-    padding: 50px;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -408,7 +418,11 @@ button {
     /* border: 2px solid red; */
     border-radius: 2rem;
     background-color: rgba(255, 255, 255, 0.03);
+    transition: 0.3s;
+}
 
+.host-box:hover {
+    background-color: rgba(255, 255, 255, 0.08);
 }
 
 .host-info h2 {
@@ -433,6 +447,17 @@ button {
     padding: 20px;
     transition: 0.3s;
 }
+
+.social-icon-a {
+    display: flex;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .social-icon a {
     margin-top: 5px;
@@ -483,7 +508,7 @@ footer::before {
 .hero-upr-div {
     position: absolute;
     top: 1.5rem;
-    right: 1rem;
+    right: 2rem;
     background-color: #00FF88;
     border-radius: 2rem;
     width: 75px;
@@ -604,7 +629,7 @@ footer::before {
         height: 40rem;
     }
 
-    .padding-24px{
+    .padding-24px {
         padding: 0px 16px;
     }
 
