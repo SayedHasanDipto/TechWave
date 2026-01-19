@@ -105,11 +105,25 @@ button {
 
 .hero-container {
     /* background-color: #1A0B2E; */
-    width: 100%;
     padding: 40px 20px;
+    position: relative;
+    overflow: hidden;
+    /* background-image: url("./assets/hero-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+.hero-container::before {
+    content: "";
+    width: 100%;
+    height: 100%;
     background-image: url("./assets/hero-bg.png");
     background-size: cover;
     background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
 .hero-content {
@@ -220,7 +234,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 90%;
+    width: 80%;
     margin: 0px auto 32px;
     gap: 10px;
 }
@@ -402,16 +416,28 @@ button {
 }
 
 footer {
+    position: relative;
+    overflow: hidden;
+    padding: 85px 0px;
+}
+
+footer::before {
+    content: "";
+    width: 100%;
+    height: 100%;
     background-image: url("./assets/footer-bg.png");
-    background-position: center;
     background-size: cover;
-    padding: 120px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
 .text-center {
     text-align: center;
     /* border: 2px solid red; */
-    width: 75%;
+    width: 50%;
     margin: 0px auto;
 }
 
@@ -524,5 +550,17 @@ footer {
 
     .flex {
         justify-content: center;
+    }
+
+    .text-center{
+        width: 100%;
+    }
+
+    .text-center h1 {
+        font-size: 3rem;
+    }
+
+    .flex-2{
+        flex-wrap: wrap;
     }
 }
