@@ -82,7 +82,7 @@ button {
     border-radius: 2rem;
 }
 
-a{
+a {
     color: white;
     text-decoration: none;
 }
@@ -355,7 +355,7 @@ a{
     margin: 0px auto;
 }
 
-#w-74{
+#w-74 {
     padding-bottom: 0px;
 }
 
@@ -423,6 +423,11 @@ a{
     border-radius: 2rem;
     background-color: rgba(255, 255, 255, 0.03);
     transition: 0.3s;
+}
+
+.host-box .host-img {
+    width: 25%;
+    overflow: hidden;
 }
 
 .host-box:hover {
