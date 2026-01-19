@@ -484,7 +484,7 @@ button {
         flex-direction: column;
     }
 
-    .social-icon{
+    .flex{
         justify-content: center;
     }
 }
