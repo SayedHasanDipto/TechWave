@@ -15,7 +15,7 @@
 
 
 .gradiant-color {
-    background: linear-gradient(20deg, #F7E93F 15%, #FB09B4 30%, #9100F8 100%);
+    background: linear-gradient(20deg, #F7E93F 20%, #FB09B4 50%, #9100F8 100%);
     background-clip: text;
     color: transparent;
     font-weight: bold;
@@ -216,6 +216,15 @@ button {
     gap: 10px;
 }
 
+.flex-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: 0px auto 32px;
+    gap: 10px;
+}
+
 .flex span {
     color: #00FF88;
     font-size: 48px;
@@ -302,6 +311,7 @@ button {
 .w-75 {
     width: 75%;
     margin: 0px auto;
+    padding-bottom: 120px;
 }
 
 .video-card {
@@ -379,12 +389,40 @@ button {
     border: 1px solid rgba(255, 255, 255, 0.356);
     border-radius: 50%;
     padding: 20px;
+    transition: 0.3s;
 }
 
-.social-icon a{
+.social-icon a {
     margin-top: 5px;
 }
 
+.social-icon:hover {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.10);
+}
+
+footer {
+    background-image: url("./assets/footer-bg.png");
+    background-position: center;
+    background-size: cover;
+    padding: 120px;
+}
+
+.text-center {
+    text-align: center;
+    /* border: 2px solid red; */
+    width: 75%;
+    margin: 0px auto;
+}
+
+.text-center h1 {
+    font-size: 6rem;
+    margin-bottom: 32px;
+}
+
+.copy-right {
+    color: rgb(154, 154, 154);
+}
 
 @media screen and (max-width: 576px) {
     .nav-header {
@@ -484,7 +522,7 @@ button {
         flex-direction: column;
     }
 
-    .flex{
+    .flex {
         justify-content: center;
     }
 }
