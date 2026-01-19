@@ -483,4 +483,8 @@ button {
     .host-box {
         flex-direction: column;
     }
+
+    .social-icon{
+        justify-content: center;
+    }
 }
