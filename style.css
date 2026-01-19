@@ -441,7 +441,7 @@ a {
 
 .host-info p {
     line-height: 24px;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 
@@ -649,6 +649,14 @@ footer::before {
 
     .host-box {
         flex-direction: column;
+    }
+
+    .host-box .host-img{
+        width: 10rem;
+    }
+
+    .host-name{
+        text-align: center;
     }
 
     .flex {
