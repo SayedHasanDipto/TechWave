@@ -118,9 +118,6 @@ a {
     padding: 40px 20px;
     position: relative;
     overflow: hidden;
-    /* background-image: url("./assets/hero-bg.png");
-    background-size: cover;
-    background-repeat: no-repeat; */
 }
 
 .hero-container::before {
@@ -426,7 +423,7 @@ a {
 }
 
 .host-box .host-img {
-    width: 25%;
+    width: 25rem;
     overflow: hidden;
 }
 
@@ -651,11 +648,11 @@ footer::before {
         flex-direction: column;
     }
 
-    .host-box .host-img{
+    .host-box .host-img {
         width: 10rem;
     }
 
-    .host-name{
+    .host-name {
         text-align: center;
     }
 
